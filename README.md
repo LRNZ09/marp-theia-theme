@@ -1,4 +1,4 @@
-# Theia Marp Theme
+# Marp Theia Theme
 
 **Theia** is a customizable theme for [Marp](https://marp.app/), designed to create visually appealing presentations.
 
@@ -30,13 +30,13 @@ Check out the [demo.md](demo.md) file for an example presentation using the Thei
 
 3. Create a Markdown file with the following front matter:
 
-   ```yaml
-   ---
-   marp: true
-   theme: theia
-   paginate: true
-   ---
-   ```
+    ```yaml
+    ---
+    marp: true
+    theme: theia
+    paginate: true
+    ---
+    ```
 
 4. Write your slides in Markdown and preview them in VS Code.
 
