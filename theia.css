@@ -9,19 +9,31 @@
 @import "gaia";
 
 /* Font import */
-@import "https://fonts.bunny.net/css?family=overpass:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|overpass-mono:300,400,500,600,700&display=swap";
+@import 'https://fonts.bunny.net/css?family=source-code-pro:400,700|source-sans-pro:400,700&display=swap';
 
 /* Variables using Gaia-compatible names */
 :root {
   /* Colors */
-  --color-light: #fffaeb;
-  --color-dark: #202020;
-  --color-primary: #5d1da8;    /* Deep rich purple */
-  --color-secondary: #b67aff;  /* Bright medium lavender */
+  --color-light: #fffaeb;     /* Light cream */
+  --color-dark: #202020;      /* Dark gray */
+  --color-primary: #5d1da8;   /* Deep rich purple */
+  --color-secondary: #b67aff; /* Bright medium lavender */
 
   /* Fonts */
-  --font-default: "Overpass", sans-serif;
-  --font-mono: "Overpass Mono", monospace;
+  --font-default: "Source Sans Pro", sans-serif;
+  --font-mono: "Source Code Pro", monospace;
+}
+
+/* Top bar stripe */
+section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: var(--color-highlight);
 }
 
 /* Section */
@@ -42,7 +54,6 @@ section {
 
   color-scheme: light;
   font-family: var(--font-default);
-  letter-spacing: 0.25px;
 }
 
 /* Variant-specific section variables */
@@ -79,18 +90,6 @@ blockquote {
   background-color: var(--color-background-stripe);
   border-left: 4px solid var(--color-highlight);
   font-style: italic;
-}
-
-/* Top bar stripe */
-section::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 8px;
-  background-color: var(--color-highlight);
 }
 
 /* Header and footer */
