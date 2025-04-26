@@ -23,7 +23,7 @@ Check out the [demo.md](demo.md) file for an example presentation using the Thei
     ```json
     {
         "markdown.marp.themes": [
-            "https://raw.githubusercontent.com/LRNZ09/marp-theia-theme/refs/heads/main/theia.css"
+            "https://raw.githubusercontent.com/LRNZ09/marp-theia-theme/refs/tags/v0.2.0/theia.css"
         ]
     }
     ```
