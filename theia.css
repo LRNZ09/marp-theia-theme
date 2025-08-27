@@ -14,10 +14,10 @@
 /* Variables using Gaia-compatible names */
 :root {
   /* Colors */
-  --color-light: #fffaeb;     /* Light cream */
-  --color-dark: #202020;      /* Dark gray */
-  --color-primary: #5d1da8;   /* Deep rich purple */
-  --color-secondary: #b67aff; /* Bright medium lavender */
+  --color-light: #FFFFFF;     /* White */
+  --color-dark: #000000;      /* Black */
+  --color-primary: #6633FF;   /* Indigo */
+  --color-secondary: #E1FF00; /* Neon Yellow */
 
   /* Fonts */
   --font-default: "Source Sans Pro", sans-serif;
