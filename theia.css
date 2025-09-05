@@ -54,6 +54,9 @@ section {
 
   color-scheme: light;
   font-family: var(--font-default);
+  letter-spacing: 1.05px;
+  line-height: 1.25;
+  padding: 50px;
 }
 
 /* Variant-specific section variables */
